@@ -1,0 +1,5 @@
+node_modules/
+.env
+.env.local
+.my_code_og_history.json
+.DS_Store

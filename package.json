@@ -1,0 +1,21 @@
+{
+  "name": "my-code-og",
+  "version": "0.0.1",
+  "description": "A local-first CLI coding assistant for code review, debugging, and task help.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "my-code-og": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js chat",
+    "dev": "node src/index.js chat",
+    "help": "node src/index.js --help",
+    "test": "node --test",
+    "review": "node src/index.js review",
+    "edit": "node src/index.js edit",
+    "work": "node src/index.js edit",
+    "terminal": "node src/index.js run",
+    "chat": "node src/index.js chat"
+  }
+}
